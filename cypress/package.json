@@ -1,0 +1,23 @@
+{
+  "name": "movistar",
+  "version": "1.0.0",
+  "description": "Casos Tienda movistar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:run": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PonceJulieta/TiendaMovistar.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PonceJulieta/TiendaMovistar/issues"
+  },
+  "homepage": "https://github.com/PonceJulieta/TiendaMovistar#readme",
+  "devDependencies": {
+    "cypress": "^8.2.0"
+  }
+}
