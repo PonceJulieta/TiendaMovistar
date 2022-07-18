@@ -14,7 +14,7 @@ export default class movistarBuilder{
         return this
     }
 
-    interescp001(){
+    interes0(){
         this.interes= '0'
         return this
     }
@@ -35,22 +35,7 @@ export default class movistarBuilder{
     }
 
     samsungurl(){
-        this.samsung = 'manufacturer=75'
-        return this
-    }
-
-    // font y estilo va en datosPage
-    fontFamilies(){
-        this.fonts = 'TelefonicaWeb-Bold, TelefonicaWeb-Regular, "Helvetica Neue", Verdana, Arial, sans-serif'
-        return this
-    }
-    estiloBanner(){
-        this.banner = ['TelefonicaWeb-Hand', '40px']
-        return this
-    }
-    
-    fontBold(){
-        this.fontBold = 'TelefonicaWeb-Bold'
+        this.samsung = 'manufacturer=49'
         return this
     }
 
@@ -60,7 +45,7 @@ export default class movistarBuilder{
     }
 
     negocio(){
-        this.negocios ='Negocios'
+        this.negocios ='Empresas'
         return this
     }
 

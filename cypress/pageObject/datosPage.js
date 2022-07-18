@@ -1,22 +1,24 @@
-export default class movistarPage{
+export default class MovistarPage{
 
-    equipo = '.product-name a';
-    financiacion = '.price-info a';
+    equipo = '.product-item-info';
+    financiacion = '#open-installments-modal';
     bancos = '#selectBank';
     tarjeta = '#selectCardByBank';
-    tablaCuotas = '.bold-tr';
-    abrirFiltros = '.btn-group';
-    filtrarPor = '.group-filter-wrapper';
-    marca = '.product-brand a';
+    tablaCuotas = '#installmentsTable';
+    abrirFiltros = '#layered-filter-block > .block-title > strong';
+    filtrarPor = '.filter-options-item';
+    marca = '.brand';
+    fabricante = '#movistar-manufacturer-h1'
     siguiente = '.icon-angle-right';
     lupa= '.waves-effect.dnavigation__search-button.js-desktop-search-button';
     inputBuscador = '#myInput';
     menu = '[role="menubar"]';
+    productos = '.parent-title'
     pregunta = '.twitter-typeahead';
     textoSinNegrita= '.movistar-blue-no-bold';
     textoconNegrita = '#installments-text';
     banner = '.banner-info';
-    subMenuProductos= 'dnavigation__link';
+    subMenuProductos= '.submenu';
     planesPrecios = '.price.text42';
     planesNombre= '.gb p';
     menuHeader= '.navigation-secondary';
@@ -53,6 +55,10 @@ export default class movistarPage{
 
     getfiltrar(){
         return cy.get(this.filtrarPor)
+    }
+
+    getfabricante(){
+        return cy.get(this.fabricante)
     }
 
     getmarca(){
